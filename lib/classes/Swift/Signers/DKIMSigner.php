@@ -663,6 +663,10 @@ class Swift_Signers_DKIMSigner implements Swift_Signers_HeaderSigner
         $this->_headerCanonData .= $header;
     }
 
+    /**
+     * @throws Swift_SwiftException
+     * @throws string
+     */
     private function _getEncryptedHash()
     {
         $signature = '';
