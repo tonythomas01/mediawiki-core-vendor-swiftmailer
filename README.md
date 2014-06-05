@@ -23,7 +23,7 @@ Usage
 Checkout this library into $IP/vendor/swiftmailer/ using `git clone <URL>`.
 
 1. Add the following to your 'composer.json' file
-  ```javascript
+  ```baash
 	"repositories": [
 		{
 			"type": "vcs",
