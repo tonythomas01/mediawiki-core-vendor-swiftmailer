@@ -23,7 +23,7 @@ Usage
 Checkout this library into $IP/vendor/swiftmailer/ using `git clone <URL>`.
 
 1. Add the following to your 'composer.json' file
-  <code>
+  '''json
 	"repositories": [
 		{
 			"type": "vcs",
@@ -34,7 +34,7 @@ Checkout this library into $IP/vendor/swiftmailer/ using `git clone <URL>`.
 		"php": ">=5.3.2",
 		"swiftmailer/swiftmailer": "5.2.0-patch"
 	},
-   </code>
+   '''
 2. Run `composer update --optimize-autoloader` to download files and update
    the autoloader files.
    
